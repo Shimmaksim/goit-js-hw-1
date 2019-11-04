@@ -1,3 +1,8 @@
-const users = ["Mango", "Poly", "Ajax", "Chelsey"];
-console.log(users.shift());
-console.log(users);
+const name = "Генератор защитного поля";
+let prise;
+
+prise = 1000;
+console.log(`Выбран ${name}, цена за штуку ${prise} кредитов`);
+
+prise = 2000;
+console.log(`Выбран ${name}, цена за штуку ${prise} кредитов`);
